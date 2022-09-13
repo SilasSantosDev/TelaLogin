@@ -5,13 +5,13 @@
     font-family: sans-serif;
 }
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background: #172031;
 }
 .login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     background: rgba(0,0,0,.5);
     border-radius: 10px;
     width: 400px;
